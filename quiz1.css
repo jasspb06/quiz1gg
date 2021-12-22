@@ -1,0 +1,41 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: rgba(5, 5, 5, 0.74);
+}
+
+li, a {
+    font-family: monospace, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    height: 150px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: whitesmoke;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: brown;
+}
